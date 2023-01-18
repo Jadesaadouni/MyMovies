@@ -22,7 +22,7 @@
         Register
       </button>
       <div id="noAccountText">Already have an account ?</div>
-      <button id="login" class="switchButtons">
+      <button id="login" class="switchButtons" v-on:click="this.router.push('/login')">
         Login
       </button>
     </div>
@@ -30,8 +30,9 @@
 
 <script>
 export default {
-  name: "register"
+  name: "my_register"
 }
+
 
 </script>
 
