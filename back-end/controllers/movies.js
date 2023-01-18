@@ -16,15 +16,15 @@ const getMovies =(req,res) => {
                         if ((err){
                             throw err
                         } else{
-                            if (data == 0) {
+                            if (data === 0) {
                                 res.status(404).send('no movies found');
                             }else{
                                 res.status(200).send(data);
                             }
-                        }
-                    }
-                    );
-            })
+                        }}
+
+                    )}
+            )
         }else{
             res.sendStatus(401);
         }

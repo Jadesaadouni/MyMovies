@@ -17,8 +17,8 @@
 </template>
 
 <script setup>
-    import Register from "./vue/my_register.vue";
-    import login from "./vue/my_login.vue";
+    import Register from "./views/my_register.vue";
+    import login from "./views/my_login.vue";
 </script>
 
 <style scoped>
