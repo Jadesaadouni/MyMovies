@@ -22,7 +22,8 @@
         Register
       </button>
       <div id="noAccountText">Already have an account ?</div>
-      <button id="login" class="switchButtons" v-on:click="this.router.push('/login')">
+
+      <button id="login" class="switchButtons" v-on:click="login">
         Login
       </button>
     </div>
@@ -30,10 +31,12 @@
 
 <script>
 export default {
-  name: "my_register"
+  name: "my_register",
+  methods: { login :function (){
+      this.router.push('/login')
+    }
+  }
 }
-
-
 </script>
 
 <style scoped>

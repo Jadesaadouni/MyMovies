@@ -9,9 +9,7 @@
   </div>
   <register/>
 
-
   <nav>
-
     <router-link to="/login">Login</router-link> |
     <router-link to="/register">Movies</router-link>
   </nav>
